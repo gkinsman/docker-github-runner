@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster
 
 ARG GH_RUNNER_VERSION
 ARG DOCKER_COMPOSE_VERSION="1.24.1"
